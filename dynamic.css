@@ -1,0 +1,85 @@
+*{
+    box-sizing: border-box;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.menu-bar {
+    height: 100vh;
+}
+
+.logo {
+    color: white;
+    font-size: 30px;
+    padding: 5px 7px;
+}
+
+.menu {
+    width: 100%;
+}
+
+.menu ul li {
+    display: block;
+    padding: 10px;
+    padding-right: 0;
+}
+
+.menu ul li a{
+    color: white;
+    padding: 10px 0;
+    font-size: 17px;
+    padding-left: 20px;
+    display: block;
+    cursor: pointer;
+}   
+
+.menu ul li a:hover {
+    background-color: rgba(0,0,0,0.3);
+}
+
+.menu ul li a i {
+    float: right;
+    margin-top: 5px;
+    padding-right: 20px;
+    transition: 0.2s;
+    font-size: 18px;
+}
+
+.menu ul li a i.icon {
+    transform: rotate(90deg);
+    margin-top: 10px;
+}
+
+.menu ul li .sub-menu {
+    background-color: white;
+    display: none;
+}
+
+.menu ul li .sub-menu ul li a{
+    color: black;
+}
+
+
+
+/* slide  */
+
+.slide-bar {
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slide-bar .slide-item {
+    width: 90% ;
+    background-color: white;
+    height: 90%;
+}
